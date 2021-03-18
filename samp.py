@@ -36,11 +36,4 @@ while True:
 	#publish the value to the node
 	(rc, mid) = client.publish("NODES", payload_string, qos=1)
 	print(payload_string)
-	'''#publish the threshold values
-	threshold_str = ' '.join(str(item) for item in threshold_values)
-	threshold_str += ' ' + str(pressure_threshold)
-	(rc, mid) = client.publish("NODES_THRESHOLD", threshold_str, qos=1)
-	#publish the surplus nodes which are willing to provide water
-	(rc, mid) = client.publish("WILLING_NODES", ' '.join(willing_to_provide), qos=1)
-	#stop execution for five seconds'''
 	time.sleep(5)
