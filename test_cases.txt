@@ -1,0 +1,12 @@
+all surplus: N1/80/71 N2/90/88 N3/100/93 END 40 70 100 END 1 0 1
+all sufficient: N1/60/71 N2/40/88 N3/70/93 END 40 70 100 END 1 0 1
+all deficit: N1/20/71 N2/30/88 N3/35/93 END 40 70 100 END 1 0 1
+one surplus and two deficit: N1/20/71 N2/35/88 N3/80/93 END 40 70 100 END 1 0 1
+two surplus and one deficit: N1/20/71 N2/80/88 N3/75/93 END 40 70 100 END 1 0 1
+one sufficient and two deficit: N1/20/71 N2/36/88 N3/70/93 END 40 70 100 END 1 0 1
+two sufficient and one deficit: N1/20/71 N2/40/88 N3/70/93 END 40 70 100 END 1 0 1
+one surplus two sufficient: N1/40/71 N2/60/88 N3/80/93 END 40 70 100 END 1 0 1
+two surplus one sufficient: N1/90/71 N2/40/88 N3/80/93 END 40 70 100 END 1 0 1
+one surplus one deficit one sufficient: N1/20/71 N2/40/88 N3/80/93 END 40 70 100 END 1 0 1
+
+N1/73/100 N2/46/71 N3/103/69 N4/84/90 N5/101/66 N6/86/76 N7/102/75 N8/33/76 N9/106/80 N10/42/56 N11/67/50 N12/48/71 N13/29/97 N14/56/94 N15/64/100 END 40 70 100 END 0 0 0 1 1 0 1 1 0 0 0 0 1 0 1

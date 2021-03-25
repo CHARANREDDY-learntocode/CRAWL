@@ -1,0 +1,5 @@
+et-xmlfile==1.0.1
+openpyxl==3.0.7
+paho-mqtt==1.5.1
+pycodestyle==2.7.0
+toml==0.10.2
